@@ -1,6 +1,13 @@
 # INSHAPE: Instance-Level Shapelets for Interpretable Time-Series Classification
-
 This repository contains the official implementation of **INSHAPE** for IJCAI.
+
+![INSHAPE_FIG](https://github.com/user-attachments/assets/827ec743-942d-44d0-bce8-7e4ef171d9be)
+Overview of our INSHAPE framework.
+    (Top) During training, the transition point algorithm segments the input time series, and the shared stochastic selector learns a Bernoulli parameter for each segment to identify discriminative regions. 
+    The gate vector masks non-selected segments with zeros (while preserving positional information), and the predictor performs TSC based on the masked time series.
+    To make gradient flow through the non-differentiable discrete Bernoulli sampling process, we employ a gradient estimator (i.e., ReinMax), allowing end-to-end training. 
+    (Bottom) For population-level shapelet discovery, the pre-trained (frozen) selector extracts instance-level shapelets across the dataset, which are then clustered using FastDTW to obtain representative cluster centroids.
+
 
 ## Installation
 ```bash
@@ -52,6 +59,9 @@ python scripts/Global_full_pipeline_UEA.py --dataset CharacterTrajectories
 ```bash
 python scripts/filter_similar_shapelets.py --dataset ECG5000 --threshold 0.8
 ```
+
+<img width="10000" height="9758" alt="Group 283" src="https://github.com/user-attachments/assets/29cdfabe-9471-4ec0-859e-8026c94c6c23" />
+
 
 ## Project Structure
 
