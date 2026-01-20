@@ -62,6 +62,6 @@ INSHAPE_IJCAI/
 ├── data_provider/   # Data loading utilities
 ├── scripts/         # Training and evaluation scripts
 ├── configs/         # Configuration files
-├── examples/        # Visualization notebooks
+├── Visualization/        # Visualization notebooks
 └── utils/           # Helper functions
 ```
