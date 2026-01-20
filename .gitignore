@@ -1,0 +1,99 @@
+# ============================================
+# Paper Submission Repository - Exclude Policy
+# ============================================
+
+# Configuration files (excluded per user request)
+configs/
+
+# Data files - Raw datasets
+*.pt
+*.pth
+*.npy
+*.npz
+*.tsv
+*.ts
+*.arff
+*.pkl
+*.pickle
+datasets/
+data/
+
+# Training outputs and results
+saved_models/
+shapelet_output/
+shapelet_output_UEA/
+replaced_datasets/
+replaced_datasets_UEA/
+checkpoints/
+*.ckpt
+
+# Logs and experiment tracking
+wandb/
+logs/
+*.logs
+*.log
+mlruns/
+tensorboard/
+
+# Visualization outputs (exclude generated images)
+*.png
+*.pdf
+*.jpg
+*.jpeg
+*.svg
+*.gif
+
+# Data analysis outputs
+*.csv
+*.xlsx
+*.h5
+*.hdf5
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook outputs (keep notebooks but exclude outputs)
+*.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
