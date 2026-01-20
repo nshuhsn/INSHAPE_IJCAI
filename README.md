@@ -1,4 +1,4 @@
-# INSHAPE: Istance-Level Shapelets for Interpretable Time-Series Classification
+# INSHAPE: Instance-Level Shapelets for Interpretable Time-Series Classification
 
 This repository contains the official implementation of **INSHAPE** for IJCAI.
 
