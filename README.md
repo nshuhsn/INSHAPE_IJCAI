@@ -69,7 +69,7 @@ python scripts/Global_full_pipeline_UEA.py --dataset CharacterTrajectories
 python scripts/filter_similar_shapelets.py --dataset ECG5000 --threshold 0.8
 ```
 
-<img width="10000" height="9758" alt="Group 283" src="https://github.com/user-attachments/assets/29cdfabe-9471-4ec0-859e-8026c94c6c23" />
+![Overview](Visualization.jpg)
 
 
 ## Project Structure
