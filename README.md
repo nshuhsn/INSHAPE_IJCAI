@@ -11,6 +11,11 @@ Overview of our INSHAPE framework.
 
 ![Visualization](fig1_motivation_ver2.jpg)
 
+Local interpretation with (a) population-level shapelets
+and (b) individual-level shapelets. Population-level shapelets (i.e,
+SBM, ShapeNet) often result in overlapping and less interpretable
+patterns, whereas our instance-level shapelets show non-overlapping
+discriminative regions that align well with the input time series.
 
 
 ## Installation
