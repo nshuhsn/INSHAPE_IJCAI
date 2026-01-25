@@ -9,7 +9,7 @@ Overview of our INSHAPE framework.
     To make gradient flow through the non-differentiable discrete Bernoulli sampling process, we employ a gradient estimator (i.e., ReinMax), allowing end-to-end training. 
     (Bottom) For population-level shapelet discovery, the pre-trained (frozen) selector extracts instance-level shapelets across the dataset, which are then clustered using FastDTW to obtain representative cluster centroids.
 
-![Visualization](fig1_motivation_ver2.jpg)
+<img src="fig1_motivation_ver2.jpg" alt="Visualization" width="600">
 
 Local interpretation with (a) population-level shapelets
 and (b) individual-level shapelets. Population-level shapelets (i.e,
