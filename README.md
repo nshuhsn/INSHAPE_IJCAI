@@ -69,7 +69,7 @@ python scripts/Global_full_pipeline_UEA.py --dataset CharacterTrajectories
 python scripts/filter_similar_shapelets.py --dataset ECG5000 --threshold 0.8
 ```
 
-![Overview](Visualization.jpg)
+<img src="Visualization.jpg" alt="Visualization" width="800">
 
 
 ## Project Structure
