@@ -1,5 +1,18 @@
 # INSHAPE: Instance-Level Shapelets for Interpretable Time-Series Classification
-This repository contains the official implementation of **INSHAPE** for IJCAI.
+
+---
+
+## 🎉 Accepted at IJCAI 2026 🎉
+
+---
+
+This repository contains the official PyTorch implementation of our IJCAI 2026 paper,  
+*INSHAPE: Instance-Level Shapelets for Interpretable Time-Series Classification*.
+
+**Seongjun Lee‡ · Seokhyun Lee‡ · Changhee Lee\***  
+Korea University  
+‡ Co-First Authors  
+\* Corresponding Author
 
 ![Overview](Method_Overview.jpg)
 
